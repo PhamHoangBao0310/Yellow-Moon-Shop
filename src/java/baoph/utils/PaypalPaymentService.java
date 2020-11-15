@@ -28,8 +28,8 @@ import java.util.Map;
  */
 public class PaypalPaymentService {
 
-    private static final String CLIENT_ID = "ASU2i7iEaoNDxoqMZtFtehrvOIc2YQDzx9oO2qauJjM10_zn3ov0Y0oOfulSbKWdEhgp-qMeRi4zCDaG";
-    private static final String CLIENT_SECRET = "EFIy8ZJ2U9JHwM3-zjhCJuEvYyNoOCpQth046Ug7Y2sxiodksCKjc4YbXD96_Vjwfkfeq2aatfosKbcR";
+    private static final String CLIENT_ID = "";
+    private static final String CLIENT_SECRET = "";
     private static final String MODE = "sandbox";
 
     public String authorizePayment(List<TblProductDTO> productInCart, Map<Integer, Integer> itemInCart) throws PayPalRESTException {
